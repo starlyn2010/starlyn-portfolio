@@ -9,6 +9,7 @@ const navItems = [
   { label: "Research", href: "#research" },
   { label: "Capabilities", href: "#skills" },
   { label: "Evolution", href: "#timeline" },
+  { label: "Journal", href: "/journal" },
 ];
 
 export default function Navbar() {

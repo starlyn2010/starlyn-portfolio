@@ -38,8 +38,11 @@ export default function CollatzVisualizer() {
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
 
-    const width = svgRef.current.clientWidth;
-    const height = 400;
+    const width = svgRef.current.clientWidth || 600;
+    const height = svgRef.current.clientHeight || 400;
+    
+    svg.attr("viewBox", `0 0 ${width} ${height}`);
+    
     const margin = { top: 40, right: 40, bottom: 40, left: 60 };
 
     const x = d3.scaleLinear()
