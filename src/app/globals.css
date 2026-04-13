@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@source "../components";
+@source "../app";
+@source "../data";
+
+@theme {
+  --color-background: #fdfdfd;
+  --color-foreground: #18181b;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-border-hover: rgba(0, 0, 0, 0.15);
+  
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+@layer base {
+  :root {
+    --background: #fdfdfd;
+    --foreground: #18181b;
+    --border: rgba(0, 0, 0, 0.08);
+    --border-hover: rgba(0, 0, 0, 0.15);
+    
+    /* Emil Kowalski Animation Curves */
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Subtle noise texture, extremely transparent */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif), serif;
+    letter-spacing: -0.02em;
+  }
+
+  /* Academic/Code font */
+  code, pre, .font-mono {
+    font-family: var(--font-mono), monospace;
+  }
+}
+
+@layer components {
+  /* Pressable buttons/cards using Emil's rules */
+  .pressable {
+    transition: transform 160ms var(--ease-out), border-color 200ms var(--ease-out), filter 200ms var(--ease-out);
+    will-change: transform;
+  }
+  
+  /* Use fine pointer to avoid touch pseudo-hover bugs */
+  @media (hover: hover) and (pointer: fine) {
+    .pressable:hover {
+       border-color: var(--border-hover);
+    }
+  }
+
+  .pressable:active {
+    transform: scale(0.97);
+  }
+
+  /* Core Card with subtle 1px border, no heavy box shadows */
+  .minimal-card {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 200ms var(--ease-out), background 200ms var(--ease-out);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .minimal-card:hover {
+      border-color: var(--border-hover);
+      background: rgba(0, 0, 0, 0.015);
+    }
+  }
+
+  /* Subtle academic dividers */
+  .divider {
+    height: 1px;
+    width: 100%;
+    background: var(--border);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base custom selection */
+::selection {
+  background: rgba(0, 0, 0, 0.2);
+  color: black;
+}
