@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
-  { label: "Projects", href: "#projects" },
-  { label: "Research", href: "#research" },
-  { label: "Capabilities", href: "#skills" },
-  { label: "Evolution", href: "#timeline" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Research", href: "/#research" },
+  { label: "Capabilities", href: "/#skills" },
+  { label: "Evolution", href: "/#timeline" },
   { label: "Journal", href: "/journal" },
 ];
 
@@ -36,8 +36,8 @@ export default function Navbar() {
         transition={{ duration: 0.6, ease: [0.23, 1, 0.32, 1] }}
       >
         <div className="max-w-5xl mx-auto flex items-center justify-between">
-          <a href="#hero" className="flex items-center gap-3 group">
-            <span className="text-sm font-medium text-zinc-900 transition-colors" translate="no">
+          <a href="/" className="flex items-center gap-3 group">
+            <span className="text-sm font-medium text-zinc-900 dark:text-zinc-100 transition-colors" translate="no">
               Starlyn Rosario
             </span>
           </a>
