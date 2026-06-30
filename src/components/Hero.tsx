@@ -51,7 +51,7 @@ export default function Hero() {
           <div className="text-sm md:text-base text-zinc-600 dark:text-zinc-400 font-light leading-relaxed mb-8">
             <span className="font-mono text-xs text-zinc-500 uppercase tracking-widest block mb-4">At 16:</span>
             <ul className="list-disc pl-5 space-y-2">
-              <li>Published research in 2-adic dynamics (arXiv preprint, April 2026)</li>
+              <li>Published 3 preprints (Collatz dynamics + Edge AI fragility) on Zenodo, 2026</li>
               <li>Proved theorems on Collatz orbital equidistribution using concentration bounds</li>
               <li>Built medical SaaS with active user base (ProSalud)</li>
               <li>Created autonomous AI agent running on 4GB hardware (NOVA)</li>
@@ -74,7 +74,7 @@ export default function Hero() {
             href="#research"
             className="pressable inline-flex items-center justify-center px-6 py-3 rounded-md bg-black dark:bg-zinc-100 text-white dark:text-black font-medium text-sm transition-opacity hover:opacity-90"
           >
-            View Research on arXiv
+            View Research
           </a>
           <a
             href="https://github.com/starlyn2010"

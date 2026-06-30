@@ -55,6 +55,21 @@ export const projects: Project[] = [
     ],
     tags: ["React", "FastAPI", "UI/UX", "Payments"],
     size: "medium",
+  },
+  {
+    id: "lnn-fragility",
+    title: "Fragility of Optimal-Agent Training",
+    subtitle: "Edge AI / RL / CfC Networks",
+    description:
+      "Training lightweight recurrent agents (CfC, GRU) against optimal Minimax produces policies that draw optimally yet collapse catastrophically against stochastic opponents. Reveals non-transitive dynamics (GRU 100-0 vs CfC+ACT), the Hardware Paradox (ACT 2.45x cost), and negative transfer (80% -> 23%). Published on Zenodo (June 2026).",
+    category: "RESEARCH",
+    metrics: [
+      { label: "Venue", value: "Zenodo" },
+      { label: "DOI", value: "10.5281/zenodo.21077402" },
+    ],
+    tags: ["CfC", "GRU", "RL", "Edge AI", "Non-Transitivity"],
+    link: "https://doi.org/10.5281/zenodo.21077402",
+    size: "medium",
   }
 ];
 
