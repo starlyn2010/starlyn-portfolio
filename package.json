@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "ln -sf node_modules/@tailwindcss/oxide-linux-x64-gnu/tailwindcss-oxide.linux-x64-gnu.node node_modules/@tailwindcss/oxide/tailwindcss-oxide.linux-x64-gnu.node"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
