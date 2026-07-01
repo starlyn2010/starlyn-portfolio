@@ -156,7 +156,7 @@ export default function CollatzBackground() {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 w-full h-full -z-10 pointer-events-none"
+      className="fixed inset-0 w-full h-full z-0 pointer-events-none"
       style={{ opacity: 0.55, transition: "opacity 1s ease" }}
     />
   );
