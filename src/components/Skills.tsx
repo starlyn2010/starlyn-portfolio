@@ -6,16 +6,16 @@ const EASE_OUT = [0.23, 1, 0.32, 1] as const;
 
 const skillGroups = [
   {
-    category: "Mathematics",
-    skills: ["Number Theory", "2-Adic Analysis", "Spectral Theory", "Ergodic Dynamics", "Concentration Inequalities"],
+    category: "Sin IA (sin depender de herramientas)",
+    skills: ["Python (básico)", "HTML / CSS (básico)", "LaTeX", "Estructuras algebraicas", "Demostraciones formales"],
   },
   {
-    category: "AI & Engineering",
-    skills: ["FastAPI", "Python", "Local LLMs (Ollama)", "RAG Systems", "Intent Routing", "NumPy / SciPy"],
+    category: "Con IA (como acelerador)",
+    skills: ["FastAPI", "React / Next.js", "PySide6", "Groq API", "D3.js", "Tailwind CSS", "Framer Motion"],
   },
   {
-    category: "Design & UX",
-    skills: ["React / Next.js", "Tailwind CSS", "Framer Motion", "Typography", "Constraint-Driven Design"],
+    category: "Matemáticas",
+    skills: ["Teoría de números", "Análisis 2-ádico", "Dinámica de Collatz", "Desigualdades de concentración", "Cadenas de Markov"],
   },
 ];
 
@@ -36,8 +36,8 @@ export default function Skills() {
             Capabilities
           </h2>
           <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-sm font-light">
-            My skill set bridges theoretical mathematical rigor with production-grade systems engineering. 
-            I focus on high-performance solutions under hardware scaling constraints.
+            Separando lo que puedo hacer por mi cuenta vs. lo que construyo con IA como herramienta.
+            No pretendo saberlo todo — pero sé exactamente lo que no sé.
           </p>
         </motion.div>
 

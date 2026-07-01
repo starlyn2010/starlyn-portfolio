@@ -2,11 +2,9 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Research from "@/components/Research";
-import CollatzVisualizer from "@/components/CollatzVisualizer";
-import BentoGrid from "@/components/BentoGrid";
-import Collaborations from "@/components/Collaborations";
-import Education from "@/components/Education";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import Timeline from "@/components/Timeline";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -16,13 +14,9 @@ export default function Home() {
       <Hero />
       <About />
       <Research />
-      <div className="py-12">
-        <CollatzVisualizer />
-      </div>
-      <BentoGrid />
-      <Collaborations />
-      <Education />
+      <Projects />
       <Skills />
+      <Timeline />
       <Footer />
     </main>
   );

@@ -23,8 +23,8 @@ export default function Footer() {
             Starlyn Rosario
           </h3>
           <p className="text-sm text-zinc-600 max-w-sm font-light">
-            Building the next generation of provably stable neural architectures. 
-            Open to research collaborations in the AI field.
+            16-year-old independent researcher from Santo Domingo, DR. 
+            Three preprints on Zenodo. Aspiring to contribute to AI research at the university level.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
       </motion.div>
 
       <div className="mt-16 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] text-zinc-600 font-mono uppercase tracking-widest">
-        <span>© {new Date().getFullYear()} — MIT EECS Portfolio</span>
+        <span>© {new Date().getFullYear()} — Starlyn Rosario</span>
         <span>Ad astra per aspera</span>
       </div>
     </footer>

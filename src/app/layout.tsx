@@ -21,31 +21,28 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Starlyn Rosario | AI Researcher & Software Engineer | MIT Candidate",
+  metadataBase: new URL("https://starlyn-portfolio.vercel.app"),
+  title: "Starlyn Rosario | Independent Researcher",
   description:
-    "Official portfolio of Starlyn Rosario (16), an independent researcher in Collatz Conjecture dynamics and Agentic AI Architecture. Candidate for MIT EECS Course 6-4.",
+    "Portfolio of Starlyn Rosario (16), an independent researcher in Collatz Conjecture dynamics from Santo Domingo, DR. Three preprints on Zenodo.",
   alternates: {
     canonical: "https://starlyn-portfolio.vercel.app",
   },
   keywords: [
     "Starlyn Rosario",
-    "AI Researcher",
-    "Software Engineer",
-    "MIT EECS",
-    "Course 6-4",
-    "Collatz Conjecture research",
-    "2-adic valuation dynamics",
-    "Agentic AI",
+    "Independent Researcher",
+    "Collatz Conjecture",
+    "2-adic valuation",
     "Nova AI",
-    "Dominican Republic AI",
-    "Independent Researcher"
+    "Dominican Republic",
+    "Liquid Neural Networks",
   ],
   authors: [{ name: "Starlyn Rosario" }],
   openGraph: {
-    title: "Starlyn Rosario | AI Researcher & Software Engineer",
-    description: "Theoretical frameworks for dynamical systems and agentic AI architectures.",
+    title: "Starlyn Rosario | Independent Researcher",
+    description: "Preprints on Collatz dynamics and Edge AI fragility. Age 16, Santo Domingo, DR.",
     url: "https://starlyn-portfolio.vercel.app",
-    siteName: "Starlyn Rosario Portfolio",
+    siteName: "Starlyn Rosario",
     locale: "en_US",
     type: "website",
     images: [
@@ -53,21 +50,18 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Starlyn Rosario | AI Researcher & Software Engineer Portfolio",
+        alt: "Starlyn Rosario | Independent Researcher",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Starlyn Rosario | AI Researcher",
-    description: "Independent research in number theory and software architecture.",
+    title: "Starlyn Rosario | Independent Researcher",
+    description: "Preprints on Collatz dynamics and Edge AI fragility.",
   },
   robots: {
     index: true,
     follow: true,
-  },
-  verification: {
-    google: "KUjlMLyh7UWTnS-4ExpUEok7Gmxk_ZHPnJLrlDMZRNs",
   },
 };
 
@@ -81,9 +75,9 @@ export default function RootLayout({
     "@type": "Person",
     "name": "Starlyn Rosario",
     "url": "https://starlyn-portfolio.vercel.app",
-    "jobTitle": "Independent AI Researcher & Software Engineer",
-    "knowsAbout": ["Artificial Intelligence", "Number Theory", "Dynamical Systems", "Software Engineering"],
-    "description": "Independendent researcher focused on the intersection of dynamical systems and artificial intelligence.",
+    "jobTitle": "Independent Researcher",
+    "knowsAbout": ["Number Theory", "Computer Science", "Collatz Conjecture"],
+    "description": "16-year-old independent researcher from Santo Domingo, DR. Published preprints on Collatz dynamics and Edge AI fragility.",
     "sameAs": [
       "https://www.linkedin.com/in/starlyn-eliezer-rosario-2457033ab",
       "https://github.com/starlyn2010"

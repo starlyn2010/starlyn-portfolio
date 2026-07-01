@@ -33,26 +33,26 @@ export default function About() {
           </p>
 
           <p>
-            <strong className="text-zinc-900 dark:text-zinc-200 font-medium">Engineering:</strong> NOVA runs complex autonomous AI without GPUs. Designed streaming algorithms (Welford online statistics) to fit 4.9M orbit analysis into 380MB RAM.
+            <strong className="text-zinc-900 dark:text-zinc-200 font-medium">Engineering:</strong> NOVA aims to run autonomous AI without GPUs. Currently paused at 463 commits. Designed streaming algorithms (Welford online statistics) to fit 4.9M orbit analysis into 380MB RAM.
           </p>
 
           <p>
-            <strong className="text-zinc-900 dark:text-zinc-200 font-medium">Products:</strong> ProSalud simplifies medical workflows. Built modular architecture so a nutritionist (real user: my uncle) can manage patient data, calculations, and AI consultations without infrastructure overhead.
+            <strong className="text-zinc-900 dark:text-zinc-200 font-medium">Products:</strong> ProSalud simplifies medical workflows for a nutritionist (my uncle). Built with PySide6+FastAPI+Groq. 16,800 lines of code, one real user. Not deployed at scale — yet.
           </p>
 
           <div className="pt-6">
             <strong className="text-zinc-900 dark:text-zinc-200 font-medium block mb-2">Currently:</strong>
-            <ul className="list-disc pl-5 space-y-1">
-              <li>Pursuing MIT Course 6-4 (AI + Decision Making)</li>
-              <li>Collaborating with researchers at PUCMM on Collatz extensions</li>
-              <li>Building web projects for Dominican startups</li>
-              <li>Learning formal proof systems (Lean 4), spectral analysis, p-adic geometry</li>
+            <ul className="space-y-1">
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span>Aspiring to MIT Course 6-4 (AI + Decision Making)</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span>Learning formal proof systems (Lean 4), spectral analysis, p-adic geometry</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span>Preparing ICLR 2027 submission on LNN fragility results</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span>Deepening Python, FastAPI, and React skills</span></li>
             </ul>
           </div>
 
           <div className="pt-2 text-sm">
-            <div><strong className="text-zinc-900 dark:text-zinc-200 font-medium">Stack:</strong> Python, FastAPI, React, Groq API, Ollama, NumPy, LaTeX</div>
-            <div><strong className="text-zinc-900 dark:text-zinc-200 font-medium">Languages:</strong> Spanish (native), English (fluent, SAT 1570+ target)</div>
+            <div><strong className="text-zinc-900 dark:text-zinc-200 font-medium">Stack:</strong> Python (basic without AI), HTML/CSS (basic without AI), LaTeX. With AI: FastAPI, React, PySide6, Groq, D3, Tailwind, Framer</div>
+            <div><strong className="text-zinc-900 dark:text-zinc-200 font-medium">Languages:</strong> Spanish (native), English (fluent, preparing SAT)</div>
           </div>
         </div>
       </motion.div>

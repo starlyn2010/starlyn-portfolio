@@ -18,7 +18,7 @@ export default function Research() {
           Publications
         </span>
         <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-zinc-900 dark:text-zinc-100 mb-8">
-          📄 Research & Publications
+          Research & Publications
         </h2>
         <p className="text-zinc-500 dark:text-zinc-400 font-light text-sm">
           Three preprints published at age 16. Two in number theory (Collatz), one in AI/Edge computing.
@@ -35,7 +35,7 @@ export default function Research() {
         {/* ========== PAPER 1: LNN ========== */}
         <div className="p-6 border border-zinc-200 dark:border-zinc-800 rounded-xl bg-zinc-50/50 dark:bg-zinc-900/50">
           <div className="flex items-start gap-3 mb-4">
-            <span className="bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-[10px] font-mono px-2 py-0.5 rounded mt-1 shrink-0">NEW</span>
+            <span className="bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 text-[10px] font-mono px-2 py-0.5 rounded mt-1 shrink-0">NEW</span>
             <div>
               <h3 className="text-xl font-serif text-zinc-900 dark:text-zinc-100 mb-1">
                 The Fragility of Optimal-Agent Training
@@ -53,16 +53,16 @@ export default function Research() {
           </div>
           <div className="space-y-3 text-zinc-600 dark:text-zinc-400 font-light text-sm leading-relaxed mb-4">
             <p>Training lightweight recurrent agents (CfC, GRU) against a near-perfect Minimax opponent in Tic-Tac-Toe produces policies that achieve 100% draw rate vs optimal play, yet <strong className="text-zinc-900 dark:text-zinc-200">collapse catastrophically against stochastic opponents</strong>.</p>
-            <ul className="list-disc pl-5 space-y-1">
-              <li><strong className="text-zinc-900 dark:text-zinc-200">Hardware Paradox:</strong> ACT increases wall-clock training 2.45× despite reducing theoretical ODE steps</li>
-              <li><strong className="text-zinc-900 dark:text-zinc-200">Non-transitive dynamics:</strong> GRU (11% vs Random) defeats CfC+ACT (96% vs Random) 100–0</li>
-              <li><strong className="text-zinc-900 dark:text-zinc-200">Negative transfer:</strong> Pre-trained backbone degrades Connect Four from 80% to 23% vs from scratch</li>
+            <ul className="space-y-1">
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span><strong className="text-zinc-900 dark:text-zinc-200">Hardware Paradox:</strong> ACT increases wall-clock training 2.45× despite reducing theoretical ODE steps</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span><strong className="text-zinc-900 dark:text-zinc-200">Non-transitive dynamics:</strong> GRU (11% vs Random) defeats CfC+ACT (96% vs Random) 100–0</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span><strong className="text-zinc-900 dark:text-zinc-200">Negative transfer:</strong> Pre-trained backbone degrades Connect Four from 80% to 23% vs from scratch</span></li>
             </ul>
           </div>
           <div className="flex gap-4 flex-wrap">
-            <a href="/paper_LNN.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">PDF</a>
-            <a href="https://doi.org/10.5281/zenodo.21077402" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">DOI</a>
-            <a href="https://github.com/starlyn2010/fragility-paper" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">GitHub (code + data)</a>
+            <a href="/paper_LNN.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.21077402" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">DOI</a>
+            <a href="https://github.com/starlyn2010/fragility-paper" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">GitHub (code + data)</a>
           </div>
         </div>
 
@@ -102,16 +102,16 @@ export default function Research() {
           </div>
 
           <div className="flex gap-4 flex-wrap">
-            <a href="/Collatz_v8_FINAL.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">PDF</a>
-            <a href="https://doi.org/10.5281/zenodo.20032032" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">DOI</a>
-            <a href="https://github.com/starlyn2010/Collatz-Valuations" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">GitHub</a>
+            <a href="/Collatz_v8_FINAL.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.20032032" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">DOI</a>
+            <a href="https://github.com/starlyn2010/Collatz-Valuations" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">GitHub</a>
           </div>
         </div>
 
         {/* ========== PAPER 3: Collatz 3n+c ========== */}
         <div className="p-6 border border-zinc-200 dark:border-zinc-800 rounded-xl bg-zinc-50/50 dark:bg-zinc-900/50">
           <div className="flex items-start gap-3 mb-4">
-            <span className="bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-[10px] font-mono px-2 py-0.5 rounded mt-1 shrink-0">COMPANION</span>
+            <span className="bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 text-[10px] font-mono px-2 py-0.5 rounded mt-1 shrink-0">COMPANION</span>
             <div>
               <h3 className="text-xl font-serif text-zinc-900 dark:text-zinc-100 mb-1">
                 Prefix Cylinder Laws for the Generalized Collatz Family 3n + c
@@ -129,28 +129,28 @@ export default function Research() {
           </div>
 
           <div className="space-y-3 text-zinc-600 dark:text-zinc-400 font-light text-sm leading-relaxed mb-4">
-            <p>Generalizes the Prefix Cylinder Law from the classical Collatz map (c=1) to the family 3n + c for c ∈ {1, 5, 7, 11}.</p>
-            <ul className="list-disc pl-5 space-y-1">
-              <li><strong className="text-zinc-900 dark:text-zinc-200">Theorem 6:</strong> Generalized prefix cylinder law — any finite valuation sequence corresponds to a unique residue class modulo 2^{S_r+1}, with explicit formula a_k(c) ≡ 3^{-1}(2^k − c) (mod 2^{k+1})</li>
-              <li><strong className="text-zinc-900 dark:text-zinc-200">Corollary 9:</strong> Exact negative-binomial prefix law is preserved identically for all admissible c</li>
-              <li><strong className="text-zinc-900 dark:text-zinc-200">Key insight:</strong> The algebraic prefix structure is not special to c=1 — it is generic to the entire 3n+c family</li>
+            <p>Generalizes the Prefix Cylinder Law from the classical Collatz map (c=1) to the family 3n + c for c &isin; &#123;1, 5, 7, 11&#125;.</p>
+            <ul className="space-y-1">
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span><strong className="text-zinc-900 dark:text-zinc-200">Theorem 6:</strong> Generalized prefix cylinder law — any finite valuation sequence corresponds to a unique residue class modulo 2<sup>S<sub>r</sub>+1</sup>, with explicit formula a<sub>k</sub>(c) ≡ 3<sup>-1</sup>(2<sup>k</sup> − c) (mod 2<sup>k+1</sup>)</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span><strong className="text-zinc-900 dark:text-zinc-200">Corollary 9:</strong> Exact negative-binomial prefix law is preserved identically for all admissible c</span></li>
+              <li className="flex items-start gap-2"><span className="text-amber-500 mt-1.5 shrink-0">&#x2022;</span><span><strong className="text-zinc-900 dark:text-zinc-200">Key insight:</strong> The algebraic prefix structure is not special to c=1 — it is generic to the entire 3n+c family</span></li>
             </ul>
           </div>
 
           <div className="text-sm text-zinc-600 dark:text-zinc-400 font-light mb-4">
-            <strong className="text-zinc-900 dark:text-zinc-200">Validation:</strong> 2,000,000+ orbits, 48 experiments (M∈{64,128,256}, N∈{20,40,60,80}), 100% congruence accuracy, frequency errors {'<'} 0.04.
+            <strong className="text-zinc-900 dark:text-zinc-200">Validation:</strong> 2,000,000+ orbits, 48 experiments (M &isin; &#123;64,128,256&#125;, N &isin; &#123;20,40,60,80&#125;), 100% congruence accuracy, frequency errors &lt; 0.04.
           </div>
 
           <div className="flex gap-4 flex-wrap">
-            <a href="/Collatz_Paper2_3nc.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-black dark:text-white underline underline-offset-4 decoration-black/20 dark:decoration-white/20 hover:decoration-black dark:hover:decoration-white transition-all">PDF</a>
-            <span className="text-sm text-zinc-400">Preprint — DOI pending</span>
+            <a href="/Collatz_Paper2_3nc.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
+            <span className="text-sm text-zinc-500 italic">DOI pending</span>
           </div>
         </div>
 
         {/* Closing Note */}
         <div className="pt-6 border-t border-black/5 dark:border-white/5">
           <p className="text-zinc-700 dark:text-zinc-300 italic font-medium text-sm">
-            Three preprints bridging <strong>mathematical rigor</strong> and <strong>computational verification</strong> — exactly the skill set MIT Course 6-4 requires.
+            Three preprints bridging <strong>mathematical rigor</strong> and <strong>computational verification</strong> — all published at age 16.
           </p>
         </div>
       </motion.div>

@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
-  { label: "Projects", href: "/#projects" },
   { label: "Research", href: "/#research" },
-  { label: "Capabilities", href: "/#skills" },
-  { label: "Evolution", href: "/#timeline" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Skills", href: "/#skills" },
+  { label: "Timeline", href: "/#timeline" },
   { label: "Journal", href: "/journal" },
 ];
 
@@ -29,7 +29,7 @@ export default function Navbar() {
         style={{
           background: scrolled ? "rgba(253,253,253, 0.85)" : "transparent",
           backdropFilter: scrolled ? "blur(12px)" : "none",
-          borderBottom: scrolled ? "1px solid rgba(0,0,0,0.05)" : "1px solid transparent",
+          borderBottom: scrolled ? "1px solid rgba(0,0,0,0.08)" : "1px solid transparent",
         }}
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ export default function Navbar() {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-xs text-zinc-600 hover:text-zinc-900 transition-colors"
+                className="text-xs text-zinc-600 hover:text-amber-600 dark:hover:text-amber-400 transition-colors"
               >
                 {item.label}
               </a>
@@ -56,7 +56,7 @@ export default function Navbar() {
             <ThemeToggle />
             <a
               href="mailto:starlyneliezerrosario@gmail.com"
-              className="ml-4 px-4 py-2 text-xs font-medium text-white bg-black dark:bg-white dark:text-black rounded-md transition-transform hover:scale-[0.98] active:scale-[0.95]"
+              className="ml-4 px-4 py-2 text-xs font-medium text-white bg-amber-600 hover:bg-amber-700 rounded-md transition-all hover:scale-[0.98] active:scale-[0.95]"
             >
               Contact
             </a>
@@ -115,7 +115,7 @@ export default function Navbar() {
             <motion.a
               href="mailto:starlyneliezerrosario@gmail.com"
               onClick={() => setMobileOpen(false)}
-              className="mt-4 px-6 py-3 text-sm font-medium text-white bg-black rounded-md"
+              className="mt-4 px-6 py-3 text-sm font-medium text-white bg-amber-600 hover:bg-amber-700 rounded-md"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}

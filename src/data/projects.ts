@@ -14,46 +14,32 @@ export const projects: Project[] = [
   {
     id: "prosalud",
     title: "ProSalud",
-    subtitle: "Medical Practice Software",
+    subtitle: "Medical Practice Software for Nutritionists",
     description:
-      "Patient management system for nutritionists. Features AI-powered nutrition consultations using Groq API + RAG, appointment scheduling, and privacy-first local data processing via Ollama.",
+      "Desktop medical management system built with PySide6 + FastAPI + Groq API. Features AI-assisted consultations, patient records, and appointment scheduling. 16,800 lines of code. One real user: my uncle.",
     category: "SOFTWARE",
     metrics: [
-      { label: "Role", value: "Designer & Engineer" },
-      { label: "Status", value: "Active Users" },
-      { label: "Next", value: "LabLab.ai Expo" },
+      { label: "Users", value: "1 (my uncle)" },
+      { label: "Lines", value: "16,800" },
+      { label: "Stack", value: "PySide6+FastAPI+Groq" },
     ],
-    tags: ["FastAPI", "React", "Groq API", "Ollama"],
+    tags: ["PySide6", "FastAPI", "Groq API", "Python"],
     size: "large",
   },
   {
     id: "nova-ai",
     title: "NOVA AI",
-    subtitle: "Autonomous Agent on Constrained Hardware",
+    subtitle: "Autonomous Agent — Paused",
     description:
-      "Runs fully autonomous AI agent on 4GB RAM without GPUs. Features L5 intent routing, TF-IDF RAG without external databases, and a streaming architecture for memory efficiency.",
+      "Local-first autonomous AI agent. Features intent routing, TF-IDF RAG without external databases, streaming architecture for memory efficiency. 463 commits. Paused since March 2026. Requires 8GB RAM.",
     category: "AI",
     metrics: [
-      { label: "Hardware", value: "4GB RAM Edge" },
-      { label: "Engine", value: "Ollama + GGUF" },
-      { label: "Community", value: "50K+ Impressions" },
+      { label: "Commits", value: "463" },
+      { label: "Status", value: "Paused (Mar 2026)" },
+      { label: "RAM", value: "8GB" },
     ],
-    tags: ["Python", "Edge AI", "NLP", "Open Source"],
+    tags: ["Python", "Ollama", "Local-First", "RAG"],
     link: "https://github.com/starlyn2010/NOVA-AI",
-    size: "medium",
-  },
-  {
-    id: "web-agency",
-    title: "Web Design Agency",
-    subtitle: "Dominican Market Solutions",
-    description:
-      "Active freelance agency providing full-stack design and development for small Dominican businesses. Specialized in SEO optimization, payment integration, and mobile-first responsive design.",
-    category: "DESIGN",
-    metrics: [
-      { label: "Status", value: "Active Freelance" },
-      { label: "Focus", value: "SEO & Sales" },
-    ],
-    tags: ["React", "FastAPI", "UI/UX", "Payments"],
     size: "medium",
   },
   {
@@ -61,7 +47,7 @@ export const projects: Project[] = [
     title: "Fragility of Optimal-Agent Training",
     subtitle: "Edge AI / RL / CfC Networks",
     description:
-      "Training lightweight recurrent agents (CfC, GRU) against optimal Minimax produces policies that draw optimally yet collapse catastrophically against stochastic opponents. Reveals non-transitive dynamics (GRU 100-0 vs CfC+ACT), the Hardware Paradox (ACT 2.45x cost), and negative transfer (80% -> 23%). Published on Zenodo (June 2026).",
+      "Training lightweight recurrent agents (CfC, GRU) against optimal Minimax produces policies that draw optimally yet collapse catastrophically against stochastic opponents. Reveals non-transitive dynamics (GRU 100-0 vs CfC+ACT), Hardware Paradox (ACT 2.45x cost), and negative transfer (80% -> 23%). Published on Zenodo (June 2026).",
     category: "RESEARCH",
     metrics: [
       { label: "Venue", value: "Zenodo" },
