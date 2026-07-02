@@ -6,12 +6,10 @@ import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Timeline from "@/components/Timeline";
 import Footer from "@/components/Footer";
-import ClientCollatzBackground from "@/components/ClientCollatzBackground";
 
 export default function Home() {
   return (
     <>
-      <ClientCollatzBackground />
       <main className="relative z-10">
         <Navbar />
         <Hero />

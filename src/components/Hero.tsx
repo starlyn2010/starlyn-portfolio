@@ -1,16 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import HeroBackground from "./HeroBackground";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative min-h-[90vh] flex flex-col justify-center px-6 md:px-12 max-w-5xl mx-auto pt-20 overflow-hidden">
+    <section id="hero" className="relative min-h-[90vh] flex flex-col justify-center max-w-5xl mx-auto pt-20 overflow-hidden">
       
-      {/* Background glow (extremely subtle) */}
-      <div 
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[600px] aspect-square rounded-full blur-[120px] opacity-[0.03] dark:opacity-[0.1] pointer-events-none"
-        style={{ background: "currentColor" }}
-      />
+      <HeroBackground />
+      <div className="px-6 md:px-12 w-full">
 
       <div className="z-10 mt-12 md:mt-24">
         {/* Intro Tag */}
@@ -107,6 +105,7 @@ export default function Hero() {
         <div className="w-[1px] h-12 bg-gradient-to-b from-black/20 to-transparent" />
         <span className="font-mono text-[10px] text-zinc-500 uppercase rotate-180" style={{ writingMode: 'vertical-rl' }}>Scroll</span>
       </motion.div>
+      </div>
     </section>
   );
 }

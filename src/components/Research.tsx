@@ -60,7 +60,7 @@ export default function Research() {
             </ul>
           </div>
           <div className="flex gap-4 flex-wrap">
-            <a href="/paper_LNN.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
+            <a href="/paper_LNN.pdf" download className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
             <a href="https://doi.org/10.5281/zenodo.21077402" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">DOI</a>
             <a href="https://github.com/starlyn2010/fragility-paper" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">GitHub (code + data)</a>
           </div>
@@ -102,7 +102,7 @@ export default function Research() {
           </div>
 
           <div className="flex gap-4 flex-wrap">
-            <a href="/Collatz_v8_FINAL.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
+            <a href="/Collatz_v8_FINAL.pdf" download className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
             <a href="https://doi.org/10.5281/zenodo.20032032" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">DOI</a>
             <a href="https://github.com/starlyn2010/Collatz-Valuations" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">GitHub</a>
           </div>
@@ -142,8 +142,8 @@ export default function Research() {
           </div>
 
           <div className="flex gap-4 flex-wrap">
-            <a href="/Collatz_Paper2_3nc.pdf" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
-            <span className="text-sm text-zinc-500 italic">DOI pending</span>
+            <a href="/Collatz_Paper2_3nc.pdf" download className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">PDF</a>
+            <a href="https://doi.org/10.5281/zenodo.21133798" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-amber-600 dark:text-amber-400 underline underline-offset-4 decoration-amber-600/30 dark:decoration-amber-400/30 hover:decoration-amber-600 dark:hover:decoration-amber-400 transition-all">DOI</a>
           </div>
         </div>
 
