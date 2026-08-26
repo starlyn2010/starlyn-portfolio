@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "starlyn-portfolio"
+message: "If you use this portfolio template or cite the associated research, please cite as below."
+type: software
+authors:
+  - family-names: "Starlyn"
+    given-names: ""
+    orcid: ""
+    website: "https://github.com/starlyn2010"
+license: MIT
+repository-code: "https://github.com/starlyn2010/starlyn-portfolio"
+url: "https://github.com/starlyn2010/starlyn-portfolio"
+keywords:
+  - nextjs
+  - portfolio
+  - research
+  - collatz
+  - edge-ai
+version: 0.1.0
+date-released: 2026-08-26
+preferred-citation:
+  type: article
+  title: "The Fragility of Optimal-Agent Training: Continuous-Time Dynamics and Adaptive Computation as Heuristic Regularizers in Edge AI"
+  authors:
+    - family-names: "Starlyn"
+      given-names: ""
+  journal: "Zenodo"
+  year: 2026
+  doi: "10.5281/zenodo.21077402"
+  url: "https://doi.org/10.5281/zenodo.21077402"
